@@ -1,0 +1,19 @@
+.cnt {
+    padding-top: 10px;
+}
+
+.favTitle{
+    color: bisque;
+    margin-left: 100px;
+    font-weight: 400;
+}
+
+.favContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}

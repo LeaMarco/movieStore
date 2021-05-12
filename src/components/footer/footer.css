@@ -1,0 +1,21 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index:2000;
+    color: bisque;
+    display: flex;
+    justify-content: flex-end;
+    }
+  
+.footerIcon{
+    fill:rgba(255, 228, 196, 0.493);
+    width: 40px;
+    height: 40px;
+}
+
+.footerIcon:hover{
+    transition: 500ms;
+    fill: bisque;
+}
+    

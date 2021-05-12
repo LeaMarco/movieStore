@@ -1,0 +1,80 @@
+.navbar {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to left, #303236 0%, #46494e 50%, #303236 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+.pageTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-decoration: none;
+    color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.logoText{
+    color: bisque;
+    transition: 500ms;
+}
+
+.logoText:hover{
+    color: white;
+    transition: 500ms;
+    text-shadow: 1px 2px 8px #d2cfab8f;
+}
+.rotateimg {
+    -webkit-transform:rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.topIcons{
+    fill: bisque;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.list {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.list-item {
+    margin-left: 15px;
+    width: 150px;
+    background: linear-gradient(to bottom, #666666 0%, #4B4A4A 100%);
+    border-radius: 12.5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item:hover{
+    box-shadow: 1px 1px 15px #ffffff38;
+    transition: 500ms;
+}
+
+

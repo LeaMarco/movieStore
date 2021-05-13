@@ -14,9 +14,9 @@ export class ConnectedList extends Component {
         <ul className="favContainer">
           {console.log(this.props.moviesFavourites)}
           {this.props.moviesFavourites.map((el) => (
-            <div className="buscador-movie" key={el.imdbID}> 
+            <div className="buscador-movie" key={el.id}> 
                   
-            <Link className="link" to={`/movie/${el.imdbID}`}>
+            <Link className="link" to={`/movie/${el.id}`}>
               <div className="buscador-movie-titulo">{el.Title}</div>
               <img className="Movie" src={el.Poster}/>
             </Link>

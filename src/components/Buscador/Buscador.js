@@ -43,7 +43,7 @@ export class Buscador extends Component {
               value={title}
               onChange={(e) => this.handleChange(e)}
             />
-            <div className="line"></div>
+            <div className="line"/>
           </div>
           <button className="buscador-button-submit" type="submit"><Search className="buscador-lupa"/></button>
         </form>

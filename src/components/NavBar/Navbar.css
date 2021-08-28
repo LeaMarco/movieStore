@@ -1,6 +1,6 @@
 .navbar {
     height: 80px;
-    width: 100%;
+    width: 100vw;
     top: 0;
     left: 0;
     background: linear-gradient(to left, #303236 0%, #46494e 50%, #303236 100%);
@@ -59,6 +59,8 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    align-items: flex-end;
+    margin-right: 20%;
 }
 
 .list-item {
@@ -78,3 +80,27 @@
 }
 
 
+@media all and (max-width: 630px){
+    .list{
+        flex-direction: column;
+    }
+
+    .btnText{
+        display: none;
+    }
+
+
+    .list-item{
+        width: 120%;
+        margin-top: 5%
+    }
+}
+
+@media all and (max-width: 420px){
+   
+
+    .topIcons{
+        display: none;
+    }
+
+}
